@@ -109,7 +109,7 @@ try {
 	ShurjoPay::create($config)
 		->verify($order_id);
 
-} catch (Raziul\ShurjoPay\ShurjoPayException $ex) {
+} catch (Raziul\ShurjoPay\ShurjoPayException $e) {
 	echo $e->getMessage();
 }
 ```
