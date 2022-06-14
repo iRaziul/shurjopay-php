@@ -1,6 +1,5 @@
-<p align="center">
-![ShurjoPay](https://www.shurjopay.com.bd/dev/images/shurjoPay.png)
-</p>
+![ShurjoPay payment gateway integration for PHP applications](https://www.shurjopay.com.bd/dev/images/shurjoPay.png)
+
 # ShurjoPay PHP Library
 Using this library you can integrate **ShurjoPay** payment gateway into your PHP applications.
 
