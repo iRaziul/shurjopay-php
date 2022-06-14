@@ -3,12 +3,12 @@
 namespace Raziul\ShurjoPay;
 
 /**
- * Model
+ * Payment
  * 
  * @author Raziul Islam <raziul.cse@gmail.com>
  * @package Raziul\ShurjoPay
  */
-class Model
+class Payment
 {
     /**
      * ShurjoPay response

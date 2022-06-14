@@ -137,11 +137,11 @@ class ShurjoPay
      *
      * @param string $order_id
      * 
-     * @return Model
+     * @return Payment
      * 
      * @throws ShurjoPayException
      */
-    public function verify(string $order_id): Model
+    public function verify(string $order_id): Payment
     {
         $token = $this->getToken();
         $payload = json_encode(['order_id' => $order_id]);
@@ -156,7 +156,7 @@ class ShurjoPay
             throw new ShurjoPayException('ShurjoPay: ' . $response['message']);
         }
 
-        return new Model($response);
+        return new Payment($response);
     }
 
 
