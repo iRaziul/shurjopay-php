@@ -1,0 +1,32 @@
+{
+  "name": "raziul/shurjopay-php",
+  "description": "ShurjoPay payment gateway integration for PHP applications.",
+  "keywords": [
+    "shurjopay",
+    "payment gateway",
+    "shurjopay gateway",
+    "shurjopay php",
+    "shurjopay payment gateway php"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Raziul Islam",
+      "email": "raziul.cse@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Raziul\\ShurjoPay\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
